@@ -95,51 +95,90 @@ https://www.apachehaus.com/cgi-bin/download.plx?dli=lVUMpFWVBVTT6N2aiVEezokVOpkV
 Benchmarking localhost (be patient)
 Completed 100 requests //进行并发压力测试 参数中要求进行1000次测试
 Completed 200 requests
+
 Completed 300 requests
+
 Completed 400 requests
+
 Completed 500 requests
+
 Completed 600 requests
+
 Completed 700 requests
+
 Completed 800 requests
+
 Completed 900 requests
+
 Completed 1000 requests
+
 Finished 1000 requests
 
+
+
 Server Software://服务软件
+
 Server Hostname:        localhost //主机名
+
 Server Port:            8080 //端口
 
 Document Path:          /add/123/456
+
 Document Length:        32 bytes
 
 Concurrency Level:      100 // 并发级别
+
 Time taken for tests:   1.329 seconds //总共测试多长时间
+
 Complete requests:      1000 //并发数
+
 Failed requests:        0 //失效请求
+
 Total transferred:      155000 bytes //总共传输字节数
+
 HTML transferred:       32000 bytes // HTML字节数，实际的页面传递的字节数
+
 Requests per second:    752.19 [#/sec] (mean) // 每秒多少个请求，代表服务器的吞吐量
+
 Time per request:       132.945 [ms] (mean) // 用户平均的等待时间
+
+
 
 // 服务器的平均处理时间
 
 Time per request:       1.329 [ms] (mean, across all concurrent requests) 
+
 Transfer rate:          113.86 [Kbytes/sec] received //每秒获取的数据长度
 
 Connection Times (ms) //链接的时间
-               min  mean[+/-sd] median   max // 最短时间 平均时间 中值 最长时间
+
+​               min  mean[+/-sd] median   max // 最短时间 平均时间 中值 最长时间
+
 Connect:        0    0   0.3      0       1  //链接时间
+
 Processing:     2  125  24.7    131     250//处理时间
+
 Waiting:        2  125  24.8    131     250 //等待时间
+
 Total:          2  125  24.7    131     250 //合计总时间
 
 Percentage of the requests served within a certain time (ms)
+
   50%    131 //一半的请求在131ms内返回
+
   66%    134 //66%的请求在134ms内返回
+
   75%    136
+
   80%    137
+
   90%    138
+
   95%    142
+
   98%    145
+
   99%    148 
+
  100%    250 (longest request)
+
